@@ -154,16 +154,17 @@ transaction['Month'] = transaction['TransactionDate'].dt.to_period('M')
 
 ''' Loan EDA Process'''
 # Number of loans
-print('No of loans: ', loans['LoanID'].count())
+# print('No of loans: ', loans['LoanID'].count())
 
 # Average loan amount
-print('Avg loan amount: ', loans['PrincipalAmount'].mean())
+# print('Avg loan amount: ', loans['PrincipalAmount'].mean())
 
 # Average interest rate
-print('Avg interest rate: ', loans['InterestRate'].mean())
+# print('Avg interest rate: ', loans['InterestRate'].mean())
 
 # Loan status distribution
-print('Loan status distribution: ', loans.groupby('LoanStatusID').size())
+# print('Loan status distribution: ', loans.groupby('LoanStatusID').size())
 
 # Loan amount by status
-print('Loan amount by status: ', loans.groupby('LoanStatusID')['PrincipalAmount'].sum() )
+# print('Loan amount by status: ', loans.groupby('LoanStatusID')['PrincipalAmount'].sum() )
+
