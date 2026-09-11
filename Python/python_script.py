@@ -182,6 +182,7 @@ print(customers['CustomerID'].is_unique)
 print(loans['LoanID'].is_unique)
 print(transaction['TransactionID'].is_unique)
 
+#  save the chnages
 accounts.to_csv('/Users/utsavsharma/Desktop/Analytics_Projects/Finance_Analytics_Project/datasets/accounts.csv', index=False)
 customers.to_csv('/Users/utsavsharma/Desktop/Analytics_Projects/Finance_Analytics_Project/datasets/customers.csv', index=False)
 loans.to_csv('/Users/utsavsharma/Desktop/Analytics_Projects/Finance_Analytics_Project/datasets/loans.csv', index=False)
