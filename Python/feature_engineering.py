@@ -48,4 +48,4 @@ customer_features = pd.DataFrame(
 # reset CustomerID index in customer_feature table
 customer_features = customer_features.reset_index()
 
-customer_features.to_csv('')
+customer_features.to_csv('/Users/utsavsharma/Desktop/Analytics_Projects/Finance_Analytics_Project/datasets/customer_features.csv', index=False)
